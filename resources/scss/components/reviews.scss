@@ -1,0 +1,32 @@
+.reviews {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .stars {
+      margin-right: 10px;
+      
+      .star {
+        font-size: 24px;
+        color: #ffd700;
+      }
+    }
+    
+    .counter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .count {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-family: $font-family;
+      }
+      
+      .total {
+        font-size: 14px;
+        color: #666;
+        font-family: $font-family;
+      }
+    }
+  }
