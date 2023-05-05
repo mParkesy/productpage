@@ -1,0 +1,73 @@
+/* lato-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-v23-latin-regular.woff2") format("woff2"),
+    url("../fonts/lato-v23-latin-regular.woff") format("woff");
+}
+/* lato-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/lato-v23-latin-700.woff2") format("woff2"),
+    url("../fonts/lato-v23-latin-700.woff") format("woff");
+}
+
+/* Define variables */
+$primary-color: #1b3159;
+$secondary-color: #000000;
+$accent-color: #e1c591;
+$font-family: "Lato", sans-serif;
+$header-height: 70px;
+
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+body {
+  font-family: $font-family;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $secondary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: $primary-color;
+}
+
+.page-width {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+
+
+@import "./components/header";
+@import "./components/faq";
+@import "./components/product";
+@import "./components/reviews";
+@import "./components/breadcrumb";
+@import "./components/footer";
+@import "./components/bar";

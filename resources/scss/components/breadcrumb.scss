@@ -1,0 +1,22 @@
+$breadcrumb-color: #333;
+
+.breadcrumb {
+  font-size: 14px;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px 0;
+  color: $breadcrumb-color;
+  
+  a {
+    color: $breadcrumb-color;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  span {
+    margin: 0 5px;
+  }
+
+}
